@@ -47,7 +47,7 @@ m4+definitions(['
       BASYS3_ID, 3,
       BOARD_3_IMAGE_URL,  ['['']'],
       BOARD_3_IMAGE_SIZE, ['['width: 5773, height: 4330']'],
-      BOARD_3_FPGA_WHERE, ['M4_FPGA_WHERE_COMMON['left: 2540, top: 1965, width: 400, height: 400']'],
+      BOARD_3_FPGA_WHERE, ['M4_FPGA_WHERE_COMMON['left: 2540, top: 1965, width: 400, height: 400', crossOrigin: 'anonymous']'],
       BOARD_3_LED_CNT,    16,
       BOARD_3_LED_WHERE,  ['['left: 675, top: 3116, scale: 8.5, angle: -0.5']'],
       BOARD_3_SSEG_CNT,   4,
