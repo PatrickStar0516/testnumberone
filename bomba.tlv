@@ -46,7 +46,7 @@ m4+definitions(['
       ['# Basys3'],
       BASYS3_ID, 3,
       BOARD_3_IMAGE_URL,  ['['https://user-images.githubusercontent.com/64545984/130667995-6ea5cc8f-400c-470b-9585-5f8ba5bab0b9.png']'],
-      BOARD_3_IMAGE_SIZE, ['['width: 5773, height: 4330',crossOrigin: 'anonymous']'],
+      BOARD_3_IMAGE_SIZE, ['['width: 5773, height: 4330']'],
       BOARD_3_FPGA_WHERE, ['M4_FPGA_WHERE_COMMON['left: 2540, top: 1965, width: 400, height: 400', crossOrigin: 'anonymous']'],
       BOARD_3_LED_CNT,    16,
       BOARD_3_LED_WHERE,  ['['left: 675, top: 3116, scale: 8.5, angle: -0.5']'],
