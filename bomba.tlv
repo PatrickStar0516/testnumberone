@@ -241,14 +241,15 @@ m4+definitions(['
          ret.img = this.newImageFromURL(
                "M4_BOARD_IMAGE_URL",
                {  
-                  crossOrigin: 'anonymous',
                   left: 0,
                   top: 0,
                   fill: "#30483c",
                   width: (function () {return {M4_BOARD_IMAGE_SIZE}})().width,
                   height: (function () {return {M4_BOARD_IMAGE_SIZE}})().height,
                },
-               {  angle: 0,
+               {  
+	          crossOrigin: 'anonymous',
+	          angle: 0,
                   strokeWidth: 0
                }
             )
@@ -499,15 +500,16 @@ m4+definitions(['
       \viz_js
          init() {
             let img = this.newImageFromURL(
-            
+             https://user-images.githubusercontent.com/64545984/160244122-e66b012b-b6de-4227-9c69-d8c7948b99b7.png,
             {  
-               crossOrigin: 'anonymous',
                left: -100,
                top: 400,
                fill: "#30483c",
                strokeWidth: 0
             },
-            {  angle: 1,
+            {  
+	       crossOrigin: 'anonymous',
+	       angle: 1,
                width: 1850,
                height: 2600,
                strokeWidth: 0
@@ -638,13 +640,14 @@ m4+definitions(['
             let img = this.newImageFromURL(
             "https://user-images.githubusercontent.com/64545984/130668406-24040e0c-cdff-4672-8818-bbb84d8041a5.png",
             {  
-               crossOrigin: 'anonymous',
                left: 4890,
                top: 410,
                fill: "#30483c",
                strokeWidth: 0
             },
-            {  angle: 0,
+            {  
+	       crossOrigin: 'anonymous',
+	       angle: 0,
                width: 2450,
                height: 2600,
                strokeWidth: 0
