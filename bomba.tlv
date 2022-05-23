@@ -500,7 +500,7 @@ m4+definitions(['
       \viz_js
          init() {
             let img = this.newImageFromURL(
-             https://user-images.githubusercontent.com/64545984/160244122-e66b012b-b6de-4227-9c69-d8c7948b99b7.png,
+             "https://user-images.githubusercontent.com/64545984/160244122-e66b012b-b6de-4227-9c69-d8c7948b99b7.png",
             {  
                left: -100,
                top: 400,
