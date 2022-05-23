@@ -241,6 +241,7 @@ m4+definitions(['
          ret.img = this.newImageFromURL(
                "M4_BOARD_IMAGE_URL",
                {  
+	       	  crossOrigin: 'anonymous',
                   left: 0,
                   top: 0,
                   fill: "#30483c",
@@ -502,6 +503,7 @@ m4+definitions(['
             let img = this.newImageFromURL(
              "https://user-images.githubusercontent.com/64545984/160244122-e66b012b-b6de-4227-9c69-d8c7948b99b7.png",
             {  
+	       crossOrigin: 'anonymous',
                left: -100,
                top: 400,
                fill: "#30483c",
@@ -640,6 +642,7 @@ m4+definitions(['
             let img = this.newImageFromURL(
             "https://user-images.githubusercontent.com/64545984/130668406-24040e0c-cdff-4672-8818-bbb84d8041a5.png",
             {  
+	       crossOrigin: 'anonymous',
                left: 4890,
                top: 410,
                fill: "#30483c",
