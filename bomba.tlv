@@ -283,7 +283,7 @@ m4+definitions(['
                   top: 10,
                   fontSize: 20
                }),
-               osfpgaImg: this.newImageFromURL("https://user-images.githubusercontent.com/64545984/131954393-6e21a24e-ee4e-44dc-b30f-2347c2229812.jpg", {
+               osfpgaImg: this.newImageFromURL("", {
                   crossOrigin: 'anonymous',
                   left: 80,
                   top: 50,
